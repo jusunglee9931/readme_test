@@ -6,11 +6,11 @@ GAN Temporary document
 ---------
 
 # Result
-## epoch timelapse
+## Epoch timelapse
 
 <table align='center'>
 <tr align='center'>
- <td> Generate Distritubtion</td>
+ <td> Z Distritubtion</td>
  </tr>
  <tr>
  <td> = Uniform(range = 8) </td>
@@ -22,18 +22,18 @@ GAN Temporary document
  <td> = N(-3,1) </td>
  </tr>
 <tr>
- <td><img src = 'img/output.gif' </td>
+ <td><img src = 'img/1dgan.gif' </td>
 </tr>
 </table>
 
-## static result
+## Static result
 
 
 <table align='center'>
 <tr align='center'>
- <td> Generate Distritubtion</td>
- <td> Generate Distritubtion</td>
- <td> Generate Distritubtion</td>
+ <td> Z Distritubtion</td>
+ <td> Z Distritubtion</td>
+ <td> Z Distritubtion</td>
  </tr>
  <tr>
  <td> = Uniform(range = 8) </td>
@@ -57,6 +57,64 @@ GAN Temporary document
 </tr>
 </table>
 
-### enviroment
+### Enviroment
 1. epoch : 1000, batch size : 8, learning rate : 0.01
+
+Vanilla Gan
+------------------
+
+# Result
+## Epoch timelapse
+
+<table align='center'>
+<tr align='center'>
+ <td> Generated image</td>
+ <td> Loss Graph </td>
+ </tr>
+<tr>
+ <td><img src = 'img/gan_mnist.gif' </td>
+ <td><img src = 'img/gan_mnist_loss.gif'</td>
+</tr>
+</table>
+
+### Enviroment
+1. epoch : 100, batch size : 25, learning rate : 0.0002 with dropout
+
+#### extra result
+
+<table align='center'>
+<tr align='center'>
+ <td> Generated image</td>
+ <td> Loss Graph </td>
+ </tr>
+<tr>
+ <td><img src = 'img/gan_bn_mnist.gif' </td>
+ <td><img src = 'img/gan_bn_mnist_loss.gif'</td>
+</tr>
+</table>
+
+
+DCGAN
+-----------------
+
+#Result
+## Epoch timelapse
+
+<table align='center'>
+<tr align='center'>
+ <td> Generated image</td>
+ <td> Loss Graph </td>
+ </tr>
+<tr>
+ <td><img src = 'img/dcgan_mnist_fixed_ani.gif' </td>
+ <td><img src = 'img/dcgan_mnist_loss.gif'</td>
+</tr>
+</table>
+
+### Enviroment
+1. epoch : 8, batch size : 25, learning rate : 0.0002 ,activation fuction : ReLU For 
+both (generator, discriminator) net , output activation fuction : Sigmoid
+
+ 
+
 
