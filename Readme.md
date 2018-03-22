@@ -153,8 +153,8 @@ both (generator, discriminator) net , output activation fuction : Sigmoid
  <td> Loss Graph </td>
  </tr>
 <tr>
- <td><img src = 'img/dcgan_celeba.gif'> </td>
- <td><img src = 'img/dcgan_celeba_loss.gif'></td>
+ <td><img src = 'img/cropped_output.gif'> </td>
+ <td><img src = 'img/cropped_celeba_loss.gif'></td>
 </tr>
 </table> 
 
