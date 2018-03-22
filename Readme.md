@@ -167,11 +167,11 @@ both (generator, discriminator) net , output activation fuction : Sigmoid
 <td> Epoch 100 </td>
  </tr>
 <tr>
- <td><img src = 'img/dcgan_e20.gif'> </td>
- <td><img src = 'img/dcgan_e40.gif'></td>
- <td><img src = 'img/dcgan_e60.gif'> </td>
- <td><img src = 'img/dcgan_e80.gif'> </td>
- <td><img src = 'img/dcgan_e100.gif'> </td>
+ <td><img src = 'img/dcgan_e20.png'> </td>
+ <td><img src = 'img/dcgan_e40.png'></td>
+ <td><img src = 'img/dcgan_e60.png'> </td>
+ <td><img src = 'img/dcgan_e80.png'> </td>
+ <td><img src = 'img/dcgan_e100.png'> </td>
 </tr>
 </table>
 
