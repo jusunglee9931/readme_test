@@ -158,6 +158,23 @@ both (generator, discriminator) net , output activation fuction : Sigmoid
 </tr>
 </table> 
 
+<table align='center'>
+<tr align='center'>
+ <td> Epoch 20 </td>
+<td> Epoch 40 </td>
+<td> Epoch 60 </td>
+<td> Epoch 80 </td>
+<td> Epoch 100 </td>
+ </tr>
+<tr>
+ <td><img src = 'img/dcgan_e20.gif'> </td>
+ <td><img src = 'img/dcgan_e40.gif'></td>
+ <td><img src = 'img/dcgan_e60.gif'> </td>
+ <td><img src = 'img/dcgan_e80.gif'> </td>
+ <td><img src = 'img/dcgan_e100.gif'> </td>
+</tr>
+</table>
+
 ### Enviroment
 1. epoch : 60, batch size : 25, learning rate : 0.0002 ,activation fuction : ReLU For 
 both (generator, discriminator) net , output activation fuction : Sigmoid
