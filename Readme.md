@@ -1,60 +1,57 @@
-Inception score
+pix2pixHD temporary..
 ======================
 
 
-cDCGAN 
+midterm result 
 ---------
 
 
-#### Inception score
+#### pytorch implementaion(epoch = 400, Not complete result)
 
 
 <table align='center'>
 <tr align='center'>
- <td> Celeba Dataset</td>
- <td> cDCGAN</td>
- <td> ACGAN</td>
- </tr>
- <tr>
-  <td> Inception score = 2.11  </td>
-  <td> Inception score = 2.30</td>
-  <td> Inception score = 2.29</td>
+ <td> generated image</td>
  </tr>
 <tr>
- <td><img src = 'img/inception_score_0.png' ></td>
-   <td><img src = 'img/inception_score_2.png'> </td>
-     <td><img src = 'img/inception_score_1.png'> </td>
+ <td><img src = 'img/frankfurt_000001_028232_gtFine_labelIds.png' ></td>
 </tr>
-</table>
-
-
-#### pix2pix test compare
-
-
-<table align='center'>
 <tr align='center'>
- <td> cGan</td>
+ <td> ground truth</td>
  </tr>
 <tr>
- <td><img src = 'img/cgan_eval9.jpg' ></td>
+ <td><img src = 'img/frankfurt_000001_028232_leftImg8bit.png' ></td>
 </tr>
 </table>
 
 <table align='center'>
 <tr align='center'>
- <td> cGan with L1</td>
+ <td> generated image</td>
  </tr>
 <tr>
- <td><img src = 'img/cgan_with_l1_eval9.jpg' ></td>
+ <td><img src = 'img/frankfurt_000001_047178_gtFine_labelIds.png' ></td>
+</tr>
+<tr align='center'>
+ <td> ground truth</td>
+ </tr>
+<tr>
+ <td><img src = 'img/frankfurt_000001_047178_leftImg8bit.png' ></td>
 </tr>
 </table>
 
 <table align='center'>
 <tr align='center'>
- <td> cGan with L1 and data flip and moving</td>
+ <td> generated image</td>
  </tr>
 <tr>
- <td><img src = 'img/cgan_with_l1_data_augumentatioin_eval9.jpg' ></td>
+ <td><img src = 'img/lindau_000026_000019_gtFine_labelIds.png' ></td>
+</tr>
+<tr align='center'>
+ <td> ground truth</td>
+ </tr>
+<tr>
+ <td><img src = 'img/lindau_000026_000019_leftImg8bit.png' ></td>
 </tr>
 </table>
+
 
